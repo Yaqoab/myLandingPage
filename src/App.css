@@ -1,0 +1,11 @@
+nav{
+    padding: 5px;
+  }
+  nav ul{
+    padding: 0;
+  }
+  nav a{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
