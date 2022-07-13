@@ -1,5 +1,4 @@
 import {ChakraProvider } from '@chakra-ui/react';
-import './App.css';
 import ComponentsCollections from './components/contCollection';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
