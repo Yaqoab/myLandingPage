@@ -58,6 +58,7 @@ const Footer = () => {
              <FontAwesomeIcon icon={faFacebookSquare} />
              <FontAwesomeIcon icon={faTwitterSquare}  />
              <FontAwesomeIcon icon={faInstagramSquare} />
+             <Text>thanks</Text>
                  </HStack>
                 </GridItem>
             </Grid>
