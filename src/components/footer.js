@@ -1,9 +1,9 @@
 import { Grid, GridItem, Link, VStack, Image, HStack, Text } from "@chakra-ui/react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
-    faFacebookSquare,
-    faTwitterSquare,
-    faInstagramSquare
+    faFacebook,
+    faTwitter,
+    faInstagram
 }from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
@@ -54,10 +54,10 @@ const Footer = () => {
                 </VStack>
                 </GridItem>
                 <GridItem area="social">
-             <HStack  spacing={4}>
-             <FontAwesomeIcon icon={faFacebookSquare} />
-             <FontAwesomeIcon icon={faTwitterSquare}  />
-             <FontAwesomeIcon icon={faInstagramSquare} />
+             <HStack  spacing={4} fontSize="25px" display={["inline-flex","flex"]} >
+             <FontAwesomeIcon icon={faFacebook} />
+             <FontAwesomeIcon icon={faTwitter}  />
+             <FontAwesomeIcon icon={faInstagram} />
                  </HStack>
                 </GridItem>
             </Grid>
