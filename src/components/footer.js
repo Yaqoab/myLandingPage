@@ -59,10 +59,9 @@ const Footer = () => {
              <FontAwesomeIcon icon={faTwitter}  />
              <FontAwesomeIcon icon={faInstagram} />
                  </HStack>
-                </GridItem>
-                
+                </GridItem>              
             </Grid>
-            <Center bg="#0c1e42" color="white">
+            <Center bg="#0c1e42" color="white" pb="20px">
                <Text> Designed by Yaqoab Abdulmalik</Text>
                 </Center>
                
