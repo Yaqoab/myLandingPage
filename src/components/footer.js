@@ -65,6 +65,7 @@ const Footer = () => {
             <Center bg="#0c1e42" color="white">
                <Text> Designed by Yaqoab Abdulmalik</Text>
                 </Center>
+               
         </div>
      );
 }
