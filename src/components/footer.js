@@ -1,4 +1,4 @@
-import { Grid, GridItem, Link, VStack, Image, HStack, Text } from "@chakra-ui/react";
+import { Grid, GridItem, Link, VStack, Image, HStack, Text, Center } from "@chakra-ui/react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
     faFacebook,
@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
     return ( 
-        <div>
+        <div >
             <Grid templateAreas={[
                 `"logo" 
                 "about" 
@@ -60,7 +60,11 @@ const Footer = () => {
              <FontAwesomeIcon icon={faInstagram} />
                  </HStack>
                 </GridItem>
+                
             </Grid>
+            <Center bg="#0c1e42" color="white">
+               <Text> Designed by Yaqoab Abdulmalik</Text>
+                </Center>
         </div>
      );
 }
